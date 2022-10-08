@@ -8,12 +8,10 @@ module.exports = {
         file: {
             fileName: '%fileName%-%DATE%',
             ext: 'log',
-            // contentFormat: '',
             maxLogs: '10d',
             frequency: '24h',
             size: '1m',
             dateFormat: 'YYYY-MM-DD',
-            // format: '',
             prettyConfig: {
                 singleLine: false,
                 colorize: false

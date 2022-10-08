@@ -1,6 +1,6 @@
 const fs = require('fs-extra');
 const path = require('path');
-const config = require('./config')
+let config = require('./config')
 const overrideConfigFile = "loggerConfig.js";
 const overrideConfigFilePath = path.join(process.cwd(), overrideConfigFile);
 
