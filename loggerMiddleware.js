@@ -1,4 +1,4 @@
-module.exports.loggerMiddleware = (req, res, next) => {
+module.exports = (req, res, next) => {
     global.reqInfo = req;
     next();
 }
