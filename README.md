@@ -138,12 +138,13 @@ app.get('/test', (req, res, next) => {
 */
 ```
 ### Future Scope:
-[] Bug-fix
-[] Speed test
-[] Post logs to url
-[] Post log to elastic
-[] Disable loggers by specifying ``env`` or ``loggerConfig.js``
-[] Convert to complete ``TypeScript`` package  
+
++ Bug-fix
++ Speed test
++ Post logs to url
++ Post log to elastic
++ Disable loggers by specifying ``env`` or ``loggerConfig.js``
++ Convert to complete ``TypeScript`` package  
 
 [pino]: https://npm.im/pino
 [pino-multi-stream]: https://npm.im/pino-multi-stream
