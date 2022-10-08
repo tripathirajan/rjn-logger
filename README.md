@@ -1,4 +1,8 @@
 # @rjn/logger
+
+
+![Logo](/logo-rjn-logger.png?raw=true "logo")
+
 This package built using [pino][pino] logger, [pino-pretty][pino-pretty] and [pino-multi-stream][pino-multi-stream]. As *pino-multi-stream* package is deprecated, so in ``@rjn/logger``
 we have pick that feature and combined ``pino`` and ``pino-multi-stream`` in a single package which allow us to use multiple streams for different ``log-levels``.
 
