@@ -106,3 +106,9 @@ dist
 .tern-port
 
 .vscode
+
+task.md
+
+test.*
+
+.lock

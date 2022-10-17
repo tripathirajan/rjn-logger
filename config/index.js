@@ -1,4 +1,3 @@
-const fs = require('fs-extra');
 const path = require('path');
 let config = require('./config')
 const overrideConfigFile = "loggerConfig.js";
